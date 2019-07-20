@@ -16,7 +16,6 @@ class DBHelper {
     }
     return `http://localhost:${port}/data/restaurants.json`;
   }
-
   /**
    * Fetch all restaurants.
    */
@@ -183,4 +182,4 @@ class DBHelper {
   } */
 
 }
-var isHosted = (window.location.hostname === "soumya44.github.io") ? 'true' : '';
+var isHosted = (window.location.hostname === "github.com/awsayad/") ? 'true' : '';

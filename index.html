@@ -23,7 +23,6 @@
   <main id="maincontent">
     <section id="map-container" role="application">
       <div id="map" aria-label="Restaurant location" aria-describedby="map-help"></div>
-      <div id="map-help" hidden>Map showing all Restaurant's locations as per seleted filter option</div>
     </section>
     <section>
       <div class="filter-options">
@@ -31,17 +30,14 @@
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()"
-              aria-label="Select Neighborhoods" aria-describedby="neighborhoods-select-help">
+              aria-label="filter by neighborhood">
               <option value="all">All Neighborhoods</option>
             </select>
-            <div id="neighborhoods-select-help" hidden>Filter option for neighborhoods</div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-            <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select Cuisines"
-              aria-describedby="cuisines-select-help">
+            <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="filter by Cuisines">
               <option value="all">All Cuisines</option>
             </select>
-            <div id="cuisines-select-help" hidden>Filter option for cuisines</div>
           </div>
         </div>
       </div>
