@@ -5,7 +5,7 @@
 For the **Restaurant Reviews** projects, we converted a static webpage to a mobile-ready web application.
 In **Stage 1**, The static design that lacks accessibility has been converted into a responsive design on different sized displays as well as accessible for screen reader use. we have also added a service worker to begin the process of creating a seamless offline experience for the users.
 
-**Live Demo** [Click Here](https://awsayad.github.io/Restaurant-Review-App/)
+**Try Project Live** [Click Here](https://awsayad.github.io/Restaurant-Review-App/)
 
 ## How to launch the app locally?
 To run this site, you'll need to use a local server. The easiest way to do so is to use the local http server using python. Please follow the steps mentioned below:
